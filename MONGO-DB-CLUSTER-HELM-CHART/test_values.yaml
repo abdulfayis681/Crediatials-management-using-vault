@@ -1,0 +1,11 @@
+  architecture: replicaset
+  replicaCount: 2
+  auth:
+    enabled: true
+    rootPassword: "password"
+    usernames:
+      - "user"
+    databases:
+      - "todos"
+    passwords:
+      - "password"
